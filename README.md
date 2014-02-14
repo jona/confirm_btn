@@ -2,6 +2,12 @@
 
 **Add a confirm button when deleting a record**
 
+##Initiliaze
+
+```coffeescript
+new ButtonConfirm({parent: $(ELEMENT_SELECTOR), action_message: STRING_ACTION_MESSAGE})
+```
+
 ##Example HTML
 
 ```html
@@ -11,7 +17,7 @@
 </div>
 ```
 
-##Extra
+##Dependency
 
 You'll notice that I'm using an ```<i>``` element above. I'm using <a href="http://fontawesome.io/">FontAwesome</a>. Include in the ```head``` after the stylesheets tag:
 
